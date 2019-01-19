@@ -1,9 +1,6 @@
 # k-nearest-neighbor
 the kd-tree implementation of knn
 
-# k-nearest-neighbor
-the kd-tree implementation of knn
-
 ### sample data
 T = [(2, 3), (5, 4), (9, 6), (4, 7), (8, 1), (7, 2)]
 
