@@ -114,18 +114,6 @@ class KdTree:
         print(cur.value, 'is the nearest leaf node(up-to-down-search)')
         return cur
 
-    def backtracking_check(self, leaf, vector):
-
-        current_dist = vector.dot(leaf.value)
-        if leaf.parent.value == None:
-            return leaf
-        parent_dist = vector.dot(leaf.parent.value)
-        print(current_dist, parent_dist)
-        if current_dist <= parent_dist:
-            return leaf
-        else:
-            self.backtracking_check(leaf.parent, vector)
-
 
 if __name__ == '__main__':
 
